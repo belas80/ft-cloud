@@ -26,7 +26,7 @@ resource "aws_instance" "app_server" {
   key_name      = "MyKeyPair"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "HelloTFCloud"
   }
 }
 
